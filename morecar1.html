@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ขายรถของน่องอิฐ</title>
+    <link rel="stylesheet" href="morecar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script>
+    let index = 0;
+    function moveSlide(step) {
+        const slides = document.querySelector(".slides");
+        const totalSlides = document.querySelectorAll(".slide").length;
+        index = (index + step + totalSlides) % totalSlides;
+        slides.style.transform = `translateX(${-index * 100}%)`;
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="title">
+            <p>รถบ้านใช้งานลุงอ้น รับซื้อ-ขายรถยนต์มือสองทุกชนิด</p>
+        </div>
+        <div class="menu">
+            <a href="/home.html" class="fas fa-home"> หน้าหลัก</a>
+            <a href="https://www.facebook.com/share/1ESszguQhF/" class="fab fa-facebook"> Facebook</a>
+            <a href="#" class="fab fa-line"> Line</a>
+            <a href="tel:+66806945465" class="fas fa-phone-alt"> เบอร์โทรติดต่อ</a>
+        </div>
+    </nav>
+
+    <div class="boxcar">
+        <div class="carinformation">
+            <div class="carousel">
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <div class="carousel-container">
+                    <div class="slides">
+                        <img src="/car1/1.jpg" class="slide">
+                        <img src="/car1/2.jpg" class="slide">
+                        <img src="/car1/3.jpg" class="slide">
+                        <img src="/car1/4.jpg" class="slide">
+                        <img src="/car1/5.jpg" class="slide">
+                        <img src="/car1/6.jpg" class="slide">
+                        <img src="/car1/7.jpg" class="slide">
+                        <img src="/car1/8.jpg" class="slide">
+                        <img src="/car1/9.jpg" class="slide">
+                        <img src="/car1/10.jpg" class="slide">
+                    </div>
+                </div>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+            <div class="details">
+                <h1 class="namecarmore">Honda Civic 1996</h1>
+                <p class="moredetails">
+                    🚗 ไมล์เเท้ วิ่งมาเพียง 618 KM เท่านั้น
+                    🚗 Plus Ultra เกียร์ MT
+                    🚗 MODEL ปัจจุบัน
+                    🚗 รับประกันจาก MITSUBISHI 5 ปี 100,000 KM
+                    🚗 ตัวรถออกจากศูนย์วันที่ 28/12/2024 ปลายปีเเท้ (อายุตัวรถน้อยมาก)
+                    🚗 Start Warranty วันที่ 28/12/2024 ปลายปีเเท้
+                    🚗 รถ Display จาก Mitsubishi Motors Thailand เป็นรถใหม่ไม่เคยผ่านการใช้งานครับ
+                    🚗 แถมพรมเข้ารูปทั้งคัน + แม็กไลเนอร์แท้ของ Mitsubishi
+                    🚗 พร้อมสีขาว White Diamond ยอดนิยม รายละเอียดของตัวรถไม่ต่างจากรถใหม่เลยครับ
+                    🚗 ยาง Bridgestone
+                    🚗 ราคารถใหม่ 982,000 บาท ประหยัดไปถึง 353,000 บาท (คิดเป็น 35.95%)
+                    🚗 ราคาดีที่สุดในตลาดปัจจุบัน (เทียบจากรุ่น-ปีและเลขไมล์ใกล้เคียงกัน)
+                    🚗 ดอกเบี้ยพิเศษ 1.29% ตลอดอายุสัญญา (เรทดอกเบี้ยพิเศษเฉพาะภายในเดือนนี้เท่านั้น)
+                    🚗 ไมล์เเท้ วิ่งมาเพียง 618 KM เท่านั้น
+                    🚗 Plus Ultra เกียร์ MT
+                    🚗 MODEL ปัจจุบัน
+                    🚗 รับประกันจาก MITSUBISHI 5 ปี 100,000 KM
+                    🚗 ตัวรถออกจากศูนย์วันที่ 28/12/2024 ปลายปีเเท้ (อายุตัวรถน้อยมาก)
+                    🚗 Start Warranty วันที่ 28/12/2024 ปลายปีเเท้
+                    🚗 รถ Display จาก Mitsubishi Motors Thailand เป็นรถใหม่ไม่เคยผ่านการใช้งานครับ
+                    🚗 แถมพรมเข้ารูปทั้งคัน + แม็กไลเนอร์แท้ของ Mitsubishi
+                    🚗 พร้อมสีขาว White Diamond ยอดนิยม รายละเอียดของตัวรถไม่ต่างจากรถใหม่เลยครับ
+                    🚗 ยาง Bridgestone
+                    🚗 ราคารถใหม่ 982,000 บาท ประหยัดไปถึง 353,000 บาท (คิดเป็น 35.95%)
+                    🚗 ราคาดีที่สุดในตลาดปัจจุบัน (เทียบจากรุ่น-ปีและเลขไมล์ใกล้เคียงกัน)
+                    🚗 ดอกเบี้ยพิเศษ 1.29% ตลอดอายุสัญญา (เรทดอกเบี้ยพิเศษเฉพาะภายในเดือนนี้เท่านั้น)
+                </p>
+                <div class="call">
+                    <div>
+                        <p>สนใจติดต่อ Facebook</p>
+                        <a href="https://www.facebook.com/share/1ESszguQhF/" target="_blank" class="fab fa-facebook" style="text-decoration: none;"> เชาวฤทธิ์ เกลี้ยงเกตุ </a>
+                    </div>
+                    <div>
+                        <p>สนใจติดต่อ Line</p>
+                        <a href="#" class="fab fa-line" style="text-decoration: none; color: rgb(125, 195, 21);"> 000-0000-000 </a>
+                    </div>
+                    <div>
+                        <p class="">สนใจติดต่อ เบอร์</p>
+                        <a href="tel:+66806945465" class="fas fa-phone-alt" style="text-decoration: none; color: rgb(190, 32, 32);">080-694-5465</a>
+                    </div>
+                </div>
+                <p class="fas fa-car"> CAR BY OIT</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+          <p>รถบ้านใช้งานลุงอ้น</p>
+          <ul>
+            <li><a href="https://www.facebook.com/share/1ESszguQhF/" target="_blank" class="fab fa-facebook" style="text-decoration: none;"> เชาวฤทธิ์ เกลี้ยงเกตุ </a></li>
+            <li><a href="#" class="fab fa-line" style="text-decoration: none; color: rgb(255, 255, 255);"> 000-000-0000 </a></li>
+            <li><a href="tel:+66806945465" class="fas fa-phone-alt" style="text-decoration: none; color: rgb(255, 255, 255);">080-694-5465</a></li>
+          </ul>
+        </div>
+    </footer>
+</body>
+</html>
